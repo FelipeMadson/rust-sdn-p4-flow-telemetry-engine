@@ -1,0 +1,14 @@
+[package]
+name = "rust-sdn-p4-flow-telemetry-engine"
+version = "1.0.0"
+edition = "2021"
+authors = ["Felipe Madison <contato@felipemadson.com>"]
+description = "High-Performance SDN & P4 Match-Action Pipeline, Autonomous Dijkstra Traffic Engineering, and Line-Rate Telemetry Collector."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/FelipeMadson/rust-sdn-p4-flow-telemetry-engine"
+keywords = ["sdn", "p4", "traffic-engineering", "telemetry", "dijkstra"]
+categories = ["network-programming", "algorithms"]
+
+[dependencies]
+# 100% Safe, zero-dependency pure Rust implementation leveraging std::collections, std::sync, std::net, and std::time
